@@ -4,7 +4,7 @@ const repeatString = function(string, num) {
         result += string
     }
     
-    return string
+    return result
 };
 
 // Do not edit below this line
