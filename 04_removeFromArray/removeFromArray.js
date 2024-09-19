@@ -1,12 +1,8 @@
 const removeFromArray = function (array, ...elements) {
-    
 
-
+    return array.filter(function (e) { return elements.indexOf(e) === -1 })
   };
   
-
-console.log(removeFromArray([1, 2, 2, 3], 2));
-
 
 // Do not edit below this line
 module.exports = removeFromArray;
