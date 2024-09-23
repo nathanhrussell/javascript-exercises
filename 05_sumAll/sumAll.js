@@ -30,11 +30,5 @@ const sumAll = function(num1, num2) {
     return sum;
 };
 
-let num1 = 90;
-let num2 = 4;
-if(typeof(num1) != "number" || typeof(num2) != "number") {
-    console.log("ERROR");
-}
-
 // Do not edit below this line
 module.exports = sumAll;
