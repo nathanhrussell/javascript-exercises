@@ -12,6 +12,10 @@ const sumAll = function(num1, num2) {
         [num1, num2] = [num2, num1];
     }
 
+    if(typeof(num1) != "number" || typeof(num2) != "number") {
+        return "ERROR";
+    }
+
     let numArray = [];
     sum = 0;
     
@@ -26,9 +30,9 @@ const sumAll = function(num1, num2) {
     return sum;
 };
 
-let num1 = 2;
+let num1 = 90;
 let num2 = 4;
-if(num1 % 1 != 0 || num2 % 1 != 0) {
+if(typeof(num1) != "number" || typeof(num2) != "number") {
     console.log("ERROR");
 }
 
