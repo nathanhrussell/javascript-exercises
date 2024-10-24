@@ -16,9 +16,5 @@ const fibonacci = function(n) {
     return fibonacci(n - 1) + fibonacci(n-2);
 };
 
-let n = "1";
-
-console.log(n);
-
 // Do not edit below this line
 module.exports = fibonacci;
